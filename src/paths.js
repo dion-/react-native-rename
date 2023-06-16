@@ -301,11 +301,11 @@ export const getOtherUpdateFilesContentOptions = ({
       from: [new RegExp(`\\b${currentName}\\b`, 'g'), new RegExp(`\\b'${currentName}'\\b`, 'g')],
       to: newName,
     },
-    {
-      files: 'package.json',
-      from: [new RegExp(`${packageJsonName}`, 'gi'), new RegExp(`${currentPathContentStr}`, 'gi')],
-      to: cleanNewPathContentStr,
-    },
+    // {
+    //   files: 'package.json',
+    //   from: [new RegExp(`${packageJsonName}`, 'gi'), new RegExp(`${currentPathContentStr}`, 'gi')],
+    //   to: cleanNewPathContentStr,
+    // },
     {
       files: 'app.json',
       from: [
