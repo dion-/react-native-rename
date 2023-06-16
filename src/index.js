@@ -130,7 +130,7 @@ program
 
     cleanBuilds();
     showSuccessMessages(newName);
-    gitStageChanges();
+    //gitStageChanges();
     checkPackageUpdate();
   });
 
